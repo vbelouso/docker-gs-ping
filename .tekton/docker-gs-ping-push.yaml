@@ -23,8 +23,6 @@ spec:
     value: '{{repo_url}}'
   - name: output-image
     value: quay.io/redhat-user-workloads/vbelouso-tenant/docker-gs-ping/docker-gs-ping:{{revision}}
-  - name: output-image
-    value: quay.io/redhat-user-workloads/vbelouso-tenant/docker-gs-ping/docker-gs-ping:latest
   - name: path-context
     value: .
   - name: revision
